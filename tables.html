@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <section>
+      <div id="table-container">
+        <table>
+          <caption>
+            A Basic HTML Table
+          </caption>
+          <thead>
+            <tr>
+              <th colspan="4" scope="col">HEADING</th>
+              <td>A4</td>
+              <td>A5</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2" rowspan="3">BCD1</td>
+              <td>B2</td>
+              <td>B3</td>
+              <td>B4</td>
+              <td class="left-aligned">B5</td>
+            </tr>
+            <tr>
+              <td>C2</td>
+              <td class="left-aligned" colspan="2">C3,4</td>
+              <td rowspan="2">CD5</td>
+            </tr>
+            <tr>
+              <td>D2</td>
+              <td>D3</td>
+              <td>D4</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">E1</td>
+              <td colspan="4">E2~5</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
